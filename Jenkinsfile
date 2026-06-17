@@ -12,8 +12,7 @@ pipeline {
 	stages {
 		stage('Checkout') {
 			steps {
-				git branch: 'main', url: 'https://github.com/SaiHarithK/t6
-        .git'
+				git branch: 'main', url: 'https://github.com/SaiHarithK/t6.git'
 			}
 		}
 		stage('build') {
