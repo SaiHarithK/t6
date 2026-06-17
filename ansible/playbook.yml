@@ -5,7 +5,7 @@
   tasks:
     - name: copy to tomcat webapps
       copy:
-        src: "/var/snap/jenkins/5042/t5/target/t6.war"
+        src: "/var/snap/jenkins/5042/t6/target/t6.war"
         dest: "/opt/tomcat/webapps/t6.war"
         remote_src: no
       
